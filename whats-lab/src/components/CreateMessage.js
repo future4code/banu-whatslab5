@@ -18,7 +18,10 @@ const UserInput = styled.input`
   margin: 3px 8px;
   width: 80px;
 
-
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    width: 8em;
+    margin: 0px 0px;
+  }
 
 `;
 
@@ -28,6 +31,12 @@ const MessageInput = styled.input`
   border: 1px solid lightgray;
   margin: 3px 0px 3px 8px;
   flex-grow: 1;
+
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    width: 110em;
+    margin: 0px 0px 0px 0px;
+    
+}
 
 
 
@@ -43,7 +52,17 @@ const SendMessage = styled.button`
   font-weight: bold;
   font-size: 16px;
 
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    width: 20em;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 19px 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 
+
+}
 
 `;
 

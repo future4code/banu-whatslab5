@@ -13,6 +13,13 @@ const MainContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    height: 100vh;
+    width: 100vw;
+    position: center;
+    box-sizing: border-box;
+}
 `;
 
 function App() {
