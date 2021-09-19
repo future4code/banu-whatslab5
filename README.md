@@ -18,5 +18,6 @@ Faça com que tanto o botão de enviar, como o botão "Enter" envie as mensagens
 
 Sempre que o nome do usuário for "eu", a mensagem deve aparecer à direita e sem mostrar o nome dele; se for outro nome, deve aparecer à esquerda, e deve mostrar o nome do remetente.
 
-Criar link do surge.
+https://cheap-thrill.surge.sh/
+
 
