@@ -55,7 +55,7 @@ const SendMessage = styled.button`
   @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
     width: 20em;
     margin: 0px 0px 0px 0px;
-    padding: 10px 19px 10px 15px;
+    /* padding: 10px 19px 10px 10px; */
     display: flex;
     align-items: center;
     justify-content: center;
