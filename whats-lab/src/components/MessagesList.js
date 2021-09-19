@@ -15,7 +15,12 @@ const MessagesContainer = styled.div`
   border-radius: 10px;
   border: 1px solid lightgray;
 
-
+  @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
 
 `;
 
@@ -40,9 +45,9 @@ const MyMessage = styled.p`
   border-radius: 5px;
   border: 1px solid lightgray;
 
- 
 
 `;
+
 
 //Area para mudar posição quando escrever "Eu" em usuário. 
 class MessagesList extends React.Component {
